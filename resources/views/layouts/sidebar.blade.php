@@ -28,9 +28,17 @@
 
                 <a class="nav-link {{ (request()->is('experience')) ? 'active' : '' }}" href="{{route('experience')}}"> <i class="fas fa-id-badge"></i> Experience</a>
             </li>
-            <li class="nav-item" data-target="Portfolio">
-
-                <a class="nav-link {{ (request()->is('portfolio')) ? 'active' : '' }}" href="{{route('portfolio')}}"> <i class="fas fa-briefcase"></i> Portfolio</a>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle {{ (request()->segment(1)=='portfolio') ? 'active' : '' }}" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-briefcase"></i>  Portfolio
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="{{route('Travel2Drive')}}">Travel2Drive</a>
+                <a class="dropdown-item" href="{{route('almaali')}}">Almaali</a>
+                <a class="dropdown-item" href="{{route('apptriner')}}">Apptriner</a>
+                
+                </div>
             </li>
             <li class="nav-item" data-target="Contact">
 
