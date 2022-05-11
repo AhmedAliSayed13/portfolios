@@ -44,11 +44,11 @@
             <div
                 class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 travel2drive">
                 <figure class="softeffect">
-                    <img src="../../imgs/portfolio/travel2drive/<?php echo $i;?>.png"
+                    <img src="{{asset('imgs/portfolio/travel2drive/'.$i.'.png')}}"
                         class="img-responsive lazy img-item-filter" />
                     <figcaption>
                         <h4><a data-fancybox="gallery-travel2drive"
-                                href="../../imgs/portfolio/travel2drive/<?php echo $i;?>.png"><i
+                                href="{{asset('imgs/portfolio/travel2drive/'.$i.'.png')}}"><i
                                     class="fas fa-eye"></i></a></h4>
                         <p data-toggle="modal" data-target="#Modal_travel2drive_<?php echo $i;?>">More Details</p>
                     </figcaption>
@@ -91,7 +91,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="item-filter-pop-up playful scrollbar style-2">
-                                    <img src="../../imgs/portfolio/travel2drive/<?php echo $i;?>.png"
+                                    <img src="{{asset('imgs/portfolio/travel2drive/'.$i.'.png')}}"
                                         class="img-responsive lazy img-item-filter" />
                                 </div>
                             </div>
@@ -157,10 +157,10 @@
                 maxDistance: 22.00,
                 spacing: 19.00
             })
-        
-        
-        
-        
+
+
+
+
     </script>
 
     <script>
@@ -178,16 +178,16 @@
                 maxDistance: 22.00,
                 spacing: 19.00
             });
-        
-        
+
+
             $('filter-links li a').click(function () {
                 alert('run');
             });
-        
-        
-        
-        
-        
+
+
+
+
+
             // filterSelection("all");
             filterSelection("travel2drive");
             function filterSelection(c) {
@@ -200,7 +200,7 @@
                     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "view");
                 }
             }
-        
+
             // Show filtered elements
             function w3AddClass(element, name) {
                 var i, arr1, arr2;
@@ -212,7 +212,7 @@
                     }
                 }
             }
-        
+
             // Hide elements that are not selected
             function w3RemoveClass(element, name) {
                 var i, arr1, arr2;
@@ -225,7 +225,7 @@
                 }
                 element.className = arr1.join(" ");
             }
-        
+
             // Add active class to the current control button (highlight it)
             var btnContainer = document.getElementById("myBtnContainer");
             var btns = btnContainer.getElementsByClassName("filter-link");
@@ -236,15 +236,15 @@
                     this.className += " active";
                 });
             }
-        
-        
+
+
             $(document).ready(function() {
                 $(".fancybox").fancybox({
                     openEffect	: 'none',
                     closeEffect	: 'none'
                 });
             });
-        
+
             $(function() {
                 $('.lazy').lazy();
             });

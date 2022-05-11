@@ -28,7 +28,7 @@
 
                 <a class="nav-link {{ (request()->is('experience')) ? 'active' : '' }}" href="{{route('experience')}}"> <i class="fas fa-id-badge"></i> Experience</a>
             </li>
-            
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle {{ (request()->segment(1)=='portfolio') ? 'active' : '' }}" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-briefcase"></i>  Portfolio
@@ -37,7 +37,23 @@
                 <a class="dropdown-item" href="{{route('Travel2Drive')}}">Travel2Drive</a>
                 <a class="dropdown-item" href="{{route('almaali')}}">Almaali</a>
                 <a class="dropdown-item" href="{{route('apptriner')}}">Apptriner</a>
-                
+                <a class="dropdown-item" href="{{route('char')}}">Char</a>
+                <a class="dropdown-item" href="{{route('forms')}}">forms</a>
+                <a class="dropdown-item" href="{{route('jumeirah')}}">jumeirah</a>
+                <a class="dropdown-item" href="{{route('market')}}">market</a>
+                <a class="dropdown-item" href="{{route('moe')}}">moe</a>
+                <a class="dropdown-item" href="{{route('pk')}}">pk</a>
+                <a class="dropdown-item" href="{{route('lms')}}">lms</a>
+                <a class="dropdown-item" href="{{route('ozone')}}">ozone</a>
+                <a class="dropdown-item" href="{{route('blue')}}">blue</a>
+                <a class="dropdown-item" href="{{route('comax')}}">comax</a>
+                <a class="dropdown-item" href="{{route('fourA')}}">fourA</a>
+                <a class="dropdown-item" href="{{route('smart')}}">smart</a>
+                <a class="dropdown-item" href="{{route('housing')}}">housing</a>
+                <a class="dropdown-item" href="{{route('cyper')}}">cyper</a>
+                <a class="dropdown-item" href="{{route('kpi')}}">kpi</a>
+                <a class="dropdown-item" href="{{route('school')}}">school</a>
+
                 </div>
             </li>
             <li class="nav-item" data-target="Contact">

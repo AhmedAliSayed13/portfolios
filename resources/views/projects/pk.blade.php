@@ -8,7 +8,7 @@
 @section('content')
     <section class="portfolio wow swing" id="portfolio">
         <div class="container">
-            <h2>Apptriner</h2>
+            <h2>PK Website</h2>
             <hr class="break">
 
             <div class="row mt-2 filter-sections">
@@ -39,13 +39,13 @@
 
 
 
-            <?php for ($i=1;$i<=6;$i++){?>
-                    <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 apptriner">
+                <?php for ($i=1;$i<=8;$i++){?>
+                    <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 pk">
                         <figure class="softeffect">
-                            <img  src="{{asset('imgs/portfolio/apptriner/'.$i.'.png')}}" class="img-responsive lazy img-item-filter"   />
+                            <img src="{{asset('imgs/portfolio/pk/'.$i.'.png')}}" class="img-responsive lazy img-item-filter"   />
                             <figcaption>
-                                <h4><a data-fancybox="gallery-apptriner"  href="{{asset('imgs/portfolio/apptriner/'.$i.'.png')}}"><i class="fas fa-eye"></i></a></h4>
-                                <p  data-toggle="modal" data-target="#Modal_apptriner_<?php echo $i;?>">More Details</p>
+                                <h4><a data-fancybox="gallery-pk"   href="{{asset('imgs/portfolio/pk/'.$i.'.png')}}"><i class="fas fa-eye"></i></a></h4>
+                                <p  data-toggle="modal" data-target="#Modal_pk_<?php echo $i;?>">More Details</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -73,19 +73,19 @@
     <!-- Modal -->
 
 
-    <?php for ($i=1;$i<=6;$i++){?>
-        <div class="modal fade" id="Modal_apptriner_<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="Modal_apptriner_<?php echo $i;?>" aria-hidden="true">
+    <?php for ($i=1;$i<=9;$i++){?>
+        <div class="modal fade" id="Modal_pk_<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="Modal_pk_<?php echo $i;?>" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Apptriner Website</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">PK Website</h5>
                     </div>
                     <div class="modal-body">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="item-filter-pop-up playful scrollbar style-2">
-                                        <img src="{{asset('imgs/portfolio/apptriner/'.$i.'.png')}}" class="img-responsive lazy img-item-filter"  />
+                                        <img src="{{asset('imgs/portfolio/pk/'.$i.'.png')}}" class="img-responsive lazy img-item-filter"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 project-details">
@@ -97,13 +97,16 @@
                                         <li>Using HTML,CSS,Boostrap.</li>
                                         <li>Using Jquery,Javascript.</li>
                                         <li>Using Git.</li>
+                                        <li>Create Child Themes.</li>
+                                        <li>Create Plugin.</li>
+                                        <li>Edit  Plugin.</li>
                                     </ul>
                                     <header>Project Informations</header>
                                     <ul class="ul-project-describe">
-                                        <li><span class="project-info-head">Client : </span>Apptriner Company</li>
+                                        <li><span class="project-info-head">Client : </span>PK Company</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
-                                    <a href="http://apptriner.com/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a href="https://www.pksaudi.com/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
                                     <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                                 </div>
@@ -124,13 +127,15 @@
     <?php }?>
 
 
+
+
     @endsection
 
 @section('js')
 
     <script>
         VANTA.NET({
-                el: "#about",
+                el: "#portfolio",
                 mouseControls: true,
                 touchControls: true,
                 minHeight: 200.00,

@@ -26,4 +26,21 @@ Route::group(['prefix'=>'portfolio'], function(){
     Route::get('/Travel2Drive', [ProjectController::class, 'Travel2Drive'])->name('Travel2Drive');
     Route::get('/almaali', [ProjectController::class, 'almaali'])->name('almaali');
     Route::get('/apptriner', [ProjectController::class, 'apptriner'])->name('apptriner');
+    Route::get('/char', [ProjectController::class, 'char'])->name('char');
+    Route::get('/forms', [ProjectController::class, 'forms'])->name('forms');
+    Route::get('/jumeirah', [ProjectController::class, 'jumeirah'])->name('jumeirah');
+    Route::get('/market', [ProjectController::class, 'market'])->name('market');
+    Route::get('/moe', [ProjectController::class, 'moe'])->name('moe');
+    Route::get('/pk', [ProjectController::class, 'pk'])->name('pk');
+    Route::get('/lms', [ProjectController::class, 'lms'])->name('lms');
+    Route::get('/ozone', [ProjectController::class, 'ozone'])->name('ozone');
+    Route::get('/blue', [ProjectController::class, 'blue'])->name('blue');
+    Route::get('/comax', [ProjectController::class, 'comax'])->name('comax');
+    Route::get('/fourA', [ProjectController::class, 'fourA'])->name('fourA');
+    Route::get('/smart', [ProjectController::class, 'smart'])->name('smart');
+    Route::get('/housing', [ProjectController::class, 'housing'])->name('housing');
+    Route::get('/cyper', [ProjectController::class, 'cyper'])->name('cyper');
+    Route::get('/kpi', [ProjectController::class, 'kpi'])->name('kpi');
+    Route::get('/school', [ProjectController::class, 'school'])->name('school');
+
 });
