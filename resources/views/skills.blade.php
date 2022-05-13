@@ -57,6 +57,13 @@
                     </div>
                     <div class="col-lg-3 float-left text-center ">
                         <div class="skill-item">
+                            <img src="{{asset('imgs/skills/api.png')}}">
+                            <h2 class="item-precentage" ><span class="counter"> 90 </span><span>%</span></h2>
+                            <p class="item-title">API</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 float-left text-center ">
+                        <div class="skill-item">
                             <i class="devicon-html5-plain-wordmark colored font-icon"></i>
                             <h2 class="item-precentage" ><span class="counter"> 95 </span><span>%</span></h2>
                             <p class="item-title">HTML5</p>
@@ -120,6 +127,20 @@
                     </div>
                     <div class="col-lg-3 float-left text-center ">
                         <div class="skill-item">
+                            <img src="{{asset('imgs/skills/json.png')}}">
+                            <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
+                            <p class="item-title">Json</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 float-left text-center ">
+                        <div class="skill-item">
+                            <img src="{{asset('imgs/skills/ajax.png')}}">
+                            <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
+                            <p class="item-title">ajax</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 float-left text-center ">
+                        <div class="skill-item">
                             <i class="devicon-csharp-plain-wordmark colored font-icon"></i>
                             <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
                             <p class="item-title">C#</p>
@@ -155,18 +176,12 @@
                     </div>
                     <div class="col-lg-3 float-left text-center ">
                         <div class="skill-item">
-                            <img src="{{asset('imgs/skills/json.png')}}">
-                            <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
-                            <p class="item-title">Json</p>
+                            <img src="{{asset('imgs/skills/clickup.png')}}">
+                            <h2 class="item-precentage" ><span class="counter"> 95 </span><span>%</span></h2>
+                            <p class="item-title">ClickUP</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 float-left text-center ">
-                        <div class="skill-item">
-                            <img src="{{asset('imgs/skills/ajax.png')}}">
-                            <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
-                            <p class="item-title">ajax</p>
-                        </div>
-                    </div>
+                    
                     
 
                 </div>

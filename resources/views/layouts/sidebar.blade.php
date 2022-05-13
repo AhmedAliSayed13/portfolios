@@ -18,7 +18,7 @@
                     <i class="fas fa-home"></i> Home</a>
             </li>
             <li class="nav-item " data-target="about">
-                <a class="nav-link {{ (request()->is('about')) ? 'active' : '' }}" href="{{route('about')}}"> <i class="fas fa-user"></i> About Me</a>
+                <a class="nav-link {{ (request()->is('about')) ? 'active' : '' }}" href="{{route('about')}}"> <i class="fas fa-id-card"></i> About Me</a>
             </li>
             <li class="nav-item" data-target="skills">
 
@@ -29,7 +29,7 @@
                 <a class="nav-link {{ (request()->is('experience')) ? 'active' : '' }}" href="{{route('experience')}}"> <i class="fas fa-id-badge"></i> Experience</a>
             </li>
 
-            <li class="nav-item dropdown">
+            {{-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle {{ (request()->segment(1)=='portfolio') ? 'active' : '' }}" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-briefcase"></i>  Portfolio
                 </a>
@@ -55,6 +55,11 @@
                 <a class="dropdown-item" href="{{route('school')}}">school</a>
 
                 </div>
+            </li> --}}
+
+            <li class="nav-item" data-target="Contact">
+
+                <a class="nav-link {{ (request()->is('portfolio')) ? 'active' : '' }} {{ (request()->segment(1)=='portfolio') ? 'active' : '' }}" href="{{route('portfolio')}}"> <i class="fas fa-suitcase"></i>   Portfolio</a>
             </li>
             <li class="nav-item" data-target="Contact">
 
@@ -70,9 +75,9 @@
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/AhmedA1o1"
+                <a class="nav-link d-inline" data-class="fixed-top" href="https://github.com/AhmedAliSayed13"
                     style="color: #1DA1F2;">
-                    <i class="fab fa-twitter d-inline fa-1x" style="color: var(--pinkC);font-size: 20px"></i>
+                    <i class="fab fa-github d-inline fa-1x" style="color: var(--pinkC);font-size: 20px"></i>
 
                 </a>
             </li>
@@ -86,10 +91,10 @@
 
         </ul>
         <div class="cv-div d-none d-sm-none d-md-block">
-            <span><a href="Ahmed-Ali-CV.pdf"><i class="fas fa-download"></i> CV</a></span>
+            <span><a href="{{asset('Ahmed Ali CV.pdf')}}"><i class="fas fa-download"></i> CV</a></span>
         </div>
         <div class="copy-right d-none d-sm-none d-md-block">
-            <span>2020 © <a href="#"><span class="name"> Ahmed Ali</span></a>
+            <span>{{date("Y")}} © <a href="#"><span class="name"> Ahmed Ali</span></a>
                 All Right Reserved.</span>
 
         </div>

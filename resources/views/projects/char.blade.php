@@ -8,7 +8,7 @@
 @section('content')
     <section class="portfolio wow swing" id="portfolio">
         <div class="container">
-            <h2>Apptriner</h2>
+            <h2>Moe Chart Website</h2>
             <hr class="break">
 
             <div class="row mt-2 filter-sections">

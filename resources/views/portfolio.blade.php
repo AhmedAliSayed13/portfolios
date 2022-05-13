@@ -5,54 +5,109 @@
 
 @section('content')
 
-<section id="about" class="about wow swing" >
+
+
+<section class="portfolio wow swing" id="portfolio">
     <div class="container">
-        <h2>About Me</h2>
+        <h2>My Projects</h2>
         <hr class="break">
         <div class="row">
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('Travel2Drive')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">Travel2Drive</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('almaali')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">Almaali</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('apptriner')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">Apptriner</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('char')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">Char</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('forms')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">forms</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('jumeirah')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">jumeirah</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('moe')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">moe</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('pk')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">pk</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('lms')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">lms</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('ozone')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">ozone</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('blue')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">blue</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('comax')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">comax</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('fourA')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">4A</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('smart')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">smart</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('housing')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">housing</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('cyper')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">cyper</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('kpi')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">kpi</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('school')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">school</h3>
+                </a>
+            </div>
 
-            <div class="col-md-6 col-sm-12 py-4">
-                <h3>Full Stack Developer</h3>
-
-                <p>Dynamic and creative Wed developer with 3 year of resume in developing Laravel and Wordpress Website,
-                    designing, developing, integrating, testing, and supporting Responsive Websites for PC and mobile and tablet devices.</p>
-
-
-            </div>
-            <div class="col-md-6 col-sm-12 py-4">
-                <h3>Personal Information</h3>
-                <ul>
-                    <li><span class="title">Name:</span><span class="value"> Ahmed Ali</span></li>
-                    <li><span class="title">Age:</span><span class="value"> 26 Years</span></li>
-                    <li><span class="title">Address:</span><span class="value"> Imbaba - Giza - Egypt</span></li>
-                    <li><span class="title">Marital Status:</span><span class="value"> Single</span></li>
-                    <li><span class="title">Military Status:</span><span class="value"> Exempted</span></li>
-                </ul>
-            </div>
-        </div>
-        <h2>Services</h2>
-        <hr class="break">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 py-2">
-                <i class="fas fa-laptop-code fa-2x"></i>
-                <h4 class="py-2">Web Development</h4>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 py-2">
-                <i class="fas fa-mobile-alt fa-2x"></i>
-                <h4 class="py-2">Responsive Design</h4>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 py-2">
-                <i class="fas fa-cash-register fa-2x"></i>
-                <h4 class="py-2">Backend Developer</h4>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 py-2">
-
-                <i class="fas fa-eye fa-2x"></i>
-                <h4 class="py-2">Frontend Developer</h4>
-            </div>
         </div>
     </div>
+
 </section>
+
 
 
 @endsection

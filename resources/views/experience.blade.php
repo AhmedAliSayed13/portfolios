@@ -14,60 +14,108 @@
                 <h3>Experience</h3>
                 <ul class="resume">
                     <li class="py-2">
-                        <span><i class="fa fa-check"></i>  From November 2019 - Now </span>
-                        <p>Worked  as  a web developer (Full Stack) at  PK company for Programming
-                            (6 October- Giza).</p>
+                        <span><i class="fa fa-check"></i>  From August 2019 - Now </span>
+                        <p>Worked  as  a Senior Full Stack Developer at  PK Saudi Company (Software House)
+                            (6 October-Giza- Egypt ).</p>
+                        <span class="d-block">Responsibilities:</span>
+                        <ol class="py-1 ">
+                            <li>Writing clean code for the front and back end of the software</li> 
+                            <li>Creating servers and databases for the back end of the software</li> 
+                            <li>Helping with the design and development of software</li> 
+                            <li>Testing and debugging software to keep it optimized</li> 
+                            <li>Ensuring cross-platform compatibility and optimization</li> 
+                            <li>Testing and maintaining the responsive design of applications</li> 
+                            <li>Developing APIs and RESTful services</li> 
+                        </ol>
                         <span class="d-block">Technologies :</span>
                         <ul class="py-1 Technologies">
                             <li>Laravel</li> |
                             <li>WordPress</li> |
+                            <li>FatFree</li> |
+                            <li>Codeigniter</li> |
                             <li>PHP</li> |
                             <li>Html</li> |
+                            <li>Git/Github</li> |
                             <li>Css</li> |
                             <li>Sasa</li> |
                             <li>Vue js</li> |
                             <li>Javascript/Jquery</li> |
                             <li>Bootstrap</li>|
-                            <li>GIT</li> |
                             <li>Database(Mysql/sql)</li> |
+                            <li>Click Up</li> |
+                            <li>Ajax</li> |
+                            <li>Json</li> |
+                            <li>Restful API</li> |
                         </ul>
                     </li>
                     <li class="py-2">
-                        <span><i class="fa fa-check"></i>  From November 2019 - october 2018 ( Full Time- Remotely )</span>
-                        <p>Worked as a (Full Stack developer) at  Rekaz company 
-                            (Remotely- Saudi Arabia).</p>
+                        <span><i class="fa fa-check"></i>  From January 2019 — February 2020  ( Part Time - Remotely )</span>
+                        <p>Worked as a (Full Stack Developer) at Kabtech Corp Company (Digital Transformation) 
+                            (Saudi Arabia).</p>
+                            <span class="d-block">Responsibilities:</span>
+                        <ol class="py-1 ">
+                            <li>Writing clean code for the front and back end of the software</li> 
+                            <li>Creating servers and databases for the back end of the software</li> 
+                            <li>Ensuring cross-platform compatibility and optimization</li> 
+                            <li>Developing APIs and RESTful services</li> 
+                            <li>Keeping up with technological advances to optimize their software</li> 
+                            <li>Considering security, maintenance, scalability, and more when developing</li>  
+                        </ol>
                         <span class="d-block">Technologies :</span>
                         <ul class="py-1 Technologies">
                             <li>Laravel</li> |
                             <li>WordPress</li> |
+                            <li>FatFree</li> |
+                            <li>Codeigniter</li> |
                             <li>PHP</li> |
                             <li>Html</li> |
+                            <li>Git/Github</li> |
                             <li>Css</li> |
                             <li>Sasa</li> |
                             <li>Vue js</li> |
                             <li>Javascript/Jquery</li> |
                             <li>Bootstrap</li>|
-                            <li>GIT</li> |
                             <li>Database(Mysql/sql)</li> |
+                            <li>Click Up</li> |
+                            <li>Ajax</li> |
+                            <li>Json</li> |
+                            <li>Restful API</li> |
                         </ul>
                     </li>
                     <li class="py-3">
-                        <span><i class="fa fa-check"></i> From March 2019 - May 2019 ( Part Time- Remotely )</span>
-                        <p>Worked  as  a Full Stack developer  at  Kabtech Corp Company
+                        <span><i class="fa fa-check"></i> From June 2018 — July 2019  (Full
+                            Time- Remotely)</span>
+                        <p>Worked  as  a Back End Developer  at  Rekaz Company (Petrol Station System) (Saudi Arabia)
                             .</p>
+                            <span class="d-block">Responsibilities:</span>
+                            <ol class="py-1 ">
+                                <li>Integration of user-facing elements developed by a front-end developers with server
+                                    side logic</li> 
+                                <li>Creating servers and databases for the back end of the software</li> 
+                                <li>Ensuring cross-platform compatibility and optimization</li> 
+                                <li>Developing APIs and RESTful services</li> 
+                                <li>Keeping up with technological advances to optimize their software</li> 
+                                <li>Considering security, maintenance, scalability, and more when developing</li>  
+                            </ol>
                         <span class="d-block">Technologies :</span>
                         <ul class="py-1 Technologies">
                             <li>Laravel</li> |
                             <li>WordPress</li> |
+                            <li>FatFree</li> |
+                            <li>Codeigniter</li> |
                             <li>PHP</li> |
                             <li>Html</li> |
+                            <li>Git/Github</li> |
                             <li>Css</li> |
                             <li>Sasa</li> |
                             <li>Vue js</li> |
                             <li>Javascript/Jquery</li> |
                             <li>Bootstrap</li>|
-                            <li>GIT</li> |
                             <li>Database(Mysql/sql)</li> |
+                            <li>Click Up</li> |
+                            <li>Ajax</li> |
+                            <li>Json</li> |
+                            <li>Restful API</li> |
                         </ul>
                     </li>
                     <li class="py-3">
