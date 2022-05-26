@@ -39,7 +39,7 @@
 
 
 
-                <?php for ($i=1;$i<=8;$i++){?>
+                <?php for ($i=1;$i<=14;$i++){?>
                     <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 pk">
                         <figure class="softeffect">
                             <img src="{{asset('imgs/portfolio/pk/'.$i.'.png')}}" class="img-responsive lazy img-item-filter"   />
@@ -73,7 +73,7 @@
     <!-- Modal -->
 
 
-    <?php for ($i=1;$i<=9;$i++){?>
+    <?php for ($i=1;$i<=14;$i++){?>
         <div class="modal fade" id="Modal_pk_<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="Modal_pk_<?php echo $i;?>" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
