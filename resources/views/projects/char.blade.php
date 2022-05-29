@@ -92,13 +92,12 @@
                                     <header> Technical Skills</header>
                                     <ul class="ul-project-describe">
                                         <li>Responsive WebSite with flex box and media Query..</li>
-                                        <li>Using Wordpress Management System .</li>
+                                        <li>Using Laravel Framework .</li>
                                         <li>Using Mysql.</li>
                                         <li>Using HTML,CSS,Boostrap.</li>
                                         <li>Using Jquery,Javascript.</li>
+                                        <li>Using Chart js.</li>
                                         <li>Using Git.</li>
-                                        <li>Create Child Themes.</li>
-                                        <li>Create Plugin.</li>
                                     </ul>
                                     <header>Project Informations</header>
                                     <ul class="ul-project-describe">

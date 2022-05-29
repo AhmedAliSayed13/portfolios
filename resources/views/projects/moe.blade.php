@@ -39,7 +39,7 @@
 
 
 
-                <?php for ($i=1;$i<=8;$i++){?>
+                <?php for ($i=1;$i<=10;$i++){?>
                     <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 moe">
                         <figure class="softeffect">
                             <img src="{{asset('imgs/portfolio/moe/'.$i.'.png')}}" class="img-responsive lazy img-item-filter"   />
@@ -73,7 +73,7 @@
     <!-- Modal -->
 
 
-    <?php for ($i=1;$i<=8;$i++){?>
+    <?php for ($i=1;$i<=10;$i++){?>
         <div class="modal fade" id="Modal_moe_<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="Modal_moe_<?php echo $i;?>" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -96,6 +96,7 @@
                                         <li>Using Mysql.</li>
                                         <li>Using HTML,CSS,Boostrap.</li>
                                         <li>Using Jquery,Javascript.</li>
+                                        <li>Using Mment js.</li>
                                         <li>Using Git.</li>
                                         <li>Create Child Themes.</li>
                                         <li>Create Plugin.</li>
