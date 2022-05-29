@@ -42,5 +42,7 @@ Route::group(['prefix'=>'portfolio'], function(){
     Route::get('/cyper', [ProjectController::class, 'cyper'])->name('cyper');
     Route::get('/kpi', [ProjectController::class, 'kpi'])->name('kpi');
     Route::get('/school', [ProjectController::class, 'school'])->name('school');
+    Route::get('/rekazb', [ProjectController::class, 'rekazb'])->name('rekazb');
+    Route::get('/rekazfuel', [ProjectController::class, 'rekazfuel'])->name('rekazfuel');
 
 });

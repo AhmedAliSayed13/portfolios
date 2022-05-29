@@ -64,5 +64,11 @@ class ProjectController extends Controller
     public function school(){
         return view($this->path.'school');
     }
+    public function rekazb(){
+        return view($this->path.'rekazb');
+    }
+    public function rekazfuel(){
+        return view($this->path.'rekazfuel');
+    }
 
 }

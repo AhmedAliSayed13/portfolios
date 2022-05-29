@@ -22,6 +22,11 @@
                     <h3 class="text-center">Almaali</h3>
                 </a>
             </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('rekazfuel')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">Rekaz Fuel</h3>
+                </a>
+            </div>
             
             <div class="col-lg-4 col-md-6 col-xs-12">
                 <a href="{{route('char')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
@@ -96,6 +101,11 @@
             <div class="col-lg-4 col-md-6 col-xs-12">
                 <a href="{{route('school')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
                     <h3 class="text-center">school</h3>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <a href="{{route('rekazb')}}" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                    <h3 class="text-center">Rekazb</h3>
                 </a>
             </div>
             <div class="col-lg-4 col-md-6 col-xs-12">
