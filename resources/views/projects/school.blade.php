@@ -39,7 +39,7 @@
 
 
 
-                <?php for ($i=1;$i<=22;$i++){?>
+                <?php for ($i=1;$i<=56;$i++){?>
                     <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 school">
                         <figure class="softeffect">
                             <img src="{{asset('imgs/portfolio/school/'.$i.'.png')}}" class="img-responsive lazy img-item-filter"   />
@@ -73,7 +73,7 @@
     <!-- Modal -->
 
 
-    <?php for ($i=1;$i<=22;$i++){?>
+    <?php for ($i=1;$i<=56;$i++){?>
         <div class="modal fade" id="Modal_school_<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="Modal_school_<?php echo $i;?>" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
