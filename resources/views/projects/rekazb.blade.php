@@ -78,7 +78,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">rekazb rekazb Website</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Rekazb Website</h5>
                     </div>
                     <div class="modal-body">
                         <div class="container">
@@ -103,7 +103,7 @@
                                     </ul>
                                     <header>Project Informations</header>
                                     <ul class="ul-project-describe">
-                                        <li><span class="project-info-head">Client : </span>rekazb rekazb Company</li>
+                                        <li><span class="project-info-head">Client : </span>rekazb Company</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
                                     <a href="https://ozone.social/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
