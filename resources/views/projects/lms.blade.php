@@ -105,7 +105,7 @@
                                         <li><span class="project-info-head">Client : </span>akeedcompany Company</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
-                                    <a href="http://lms.akeedcompany.net/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a href="#" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
                                     <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                                 </div>

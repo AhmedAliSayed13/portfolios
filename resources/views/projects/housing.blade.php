@@ -92,12 +92,14 @@
                                     <header> Technical Skills</header>
                                     <ul class="ul-project-describe">
                                         <li>Responsive WebSite with flex box and media Query..</li>
-                                        <li>Using Wordpress  .</li>
+                                        <li>Using Wordpress Management System  .</li>
                                         <li>Using Mysql.</li>
                                         <li>Using HTML,CSS,Boostrap.</li>
                                         <li>Using Jquery,Javascript.</li>
                                         <li>Using Git.</li>
-                                        <li>MVC.</li>
+                                        <li>MVC</li>
+                                        <li>Create Plugin</li>
+                                        <li>Create Child Theme</li>
 
 
                                     </ul>
@@ -106,7 +108,7 @@
                                         <li><span class="project-info-head">Client : </span>College Housing Company</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
-                                    <a href="https://ozone.social/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a href="#" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
                                     <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                                 </div>
