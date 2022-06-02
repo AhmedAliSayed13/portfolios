@@ -92,7 +92,7 @@
                                     <header> Technical Skills</header>
                                     <ul class="ul-project-describe">
                                         <li>Responsive WebSite with flex box and media Query..</li>
-                                        <li>Using Wordpress  .</li>
+                                        <li>Using Codeigniter  .</li>
                                         <li>Using Mysql.</li>
                                         <li>Using HTML,CSS,Boostrap.</li>
                                         <li>Using Jquery,Javascript.</li>
@@ -106,7 +106,7 @@
                                         <li><span class="project-info-head">Client : </span>school</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
-                                    <a href="https://ozone.social/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a href="http://34.125.4.18/erp/login" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
                                     <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                                 </div>
