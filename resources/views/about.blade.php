@@ -26,7 +26,7 @@
                 <ul>
                     <li><span class="title">Name:</span><span class="value"> Ahmed Ali Sayed</span></li>
                     <li><span class="title">Age:</span><span class="value"> 27 Years</span></li>
-                    <li><span class="title">Address:</span><span class="value"> Imbaba - Giza - Egypt</span></li>
+                    <li><span class="title">Address:</span><span class="value">  Giza - Egypt</span></li>
                     <li><span class="title">Marital Status:</span><span class="value"> Single</span></li>
                     <li><span class="title">Military Status:</span><span class="value"> Exempted</span></li>
                 </ul>
@@ -60,7 +60,7 @@
 @endsection
 
 @section('js')
- 
+
 <script>
 
     VANTA.NET({
